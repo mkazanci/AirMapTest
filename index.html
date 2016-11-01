@@ -1,6 +1,15 @@
 <html>
     <head>
         <script src="https://cdn.airmap.io/map-sdk/1.2.1/dist/airmap.map.min.js"></script>
+        <style>
+            #map {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
         <script language="javascript">
             var map = new Airmap.Map('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVkZW50aWFsX2lkIjoiY3JlZGVudGlhbHwzb1AzeEJvaG5xUTJ6ZUY3Tk4zTXZ1blhlNFgwIiwiYXBwbGljYXRpb25faWQiOiJhcHBsaWNhdGlvbnxxWkptRWV4Rkx6ZEFPYlRCMjB2bnROZUprOW0iLCJvcmdhbml6YXRpb25faWQiOiJkZXZlbG9wZXJ8eDJOZ3FQT0ZaTzM2bFdVOU9LTDM2ZkFBNEs0bCIsImlhdCI6MTQ3NTg3MTA0N30.RmLe-8fTEicOmbRNf8L9XQfN5IIqDZM5tjzK4PBbs-o', {
                                      container: 'map',
@@ -16,15 +25,6 @@
                                      createFlights: false,
                                      theme: 'dark'
                                      });
-        </script>
-        <style>
-            #map {
-                width: 500px;
-                height: 500px;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="map"></div>
+            </script>
     </body>
 </html>
