@@ -3,8 +3,8 @@
         <script src="https://cdn.airmap.io/map-sdk/1.2.1/dist/airmap.map.min.js"></script>
         <style>
             #map {
-                width: 500px;
-                height: 500px;
+                width: 100%;
+                height: 100%;
             }
         </style>
     </head>
@@ -16,14 +16,14 @@
                                      theme: 'standard',
                                      useLocation: false,
                                      layers: [ 'airports_recreational', 'heliports', 'class_b', 'class_c', 'class_d', 'class_e0' ],
-                                     center: [34.0219, -118.4814],
+                                     center: [34.00, -118.50],
                                      zoom: 9,
                                      pitch: 35,
                                      hash: false,
                                      showControls: false,
                                      interactive: false,
                                      createFlights: false,
-                                     theme: 'dark'
+                                     theme: 'satellite'
                                      });
             </script>
     </body>
