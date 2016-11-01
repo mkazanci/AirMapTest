@@ -1,5 +1,21 @@
 <html>
     <head>
         <script src="https://cdn.airmap.io/map-sdk/1.2.1/dist/airmap.map.min.js"></script>
+        <script language="javascript">
+            var map = new Airmap.Map('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVkZW50aWFsX2lkIjoiY3JlZGVudGlhbHwzb1AzeEJvaG5xUTJ6ZUY3Tk4zTXZ1blhlNFgwIiwiYXBwbGljYXRpb25faWQiOiJhcHBsaWNhdGlvbnxxWkptRWV4Rkx6ZEFPYlRCMjB2bnROZUprOW0iLCJvcmdhbml6YXRpb25faWQiOiJkZXZlbG9wZXJ8eDJOZ3FQT0ZaTzM2bFdVOU9LTDM2ZkFBNEs0bCIsImlhdCI6MTQ3NTg3MTA0N30.RmLe-8fTEicOmbRNf8L9XQfN5IIqDZM5tjzK4PBbs-o', {
+                                     container: 'map',
+                                     theme: 'standard',
+                                     useLocation: false,
+                                     layers: [ 'airports_recreational', 'heliports', 'class_b', 'class_c', 'class_d', 'class_e0' ],
+                                     center: [34.0219, -118.4814],
+                                     zoom: 9,
+                                     pitch: 35,
+                                     hash: false,
+                                     showControls: false,
+                                     interactive: false,
+                                     createFlights: false,
+                                     theme: 'dark'
+                                     });
+        </script>
     </head>
 </html>
